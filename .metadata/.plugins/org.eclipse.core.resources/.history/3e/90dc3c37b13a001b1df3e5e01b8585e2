@@ -1,0 +1,19 @@
+package com.project.service;
+
+import java.util.List;
+
+import com.project.model.Project;
+
+public interface ProjectService {
+
+	public List<Project> getAllRequirements();
+
+	public Project getRequirementById(int id);
+
+	public Project insertRequirement(Requirement r);
+
+	public Project updateRequirement(Requirement r);
+
+	public void deleteRequirement(int id);
+
+}
